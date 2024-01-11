@@ -14,7 +14,7 @@ body {
     #subheading {
     margin-top: -4px;
     background: #273D46;
-    width: 200px;
+    width: fit-content;
     color: #f8f7f7;
     padding: 5px 10px;
     text-shadow: 0 0 1px #1D1F1F;
