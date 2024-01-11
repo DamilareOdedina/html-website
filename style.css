@@ -1,0 +1,147 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff6f7;
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #footer {
+        padding-top: 200px;
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #footer {
+        padding-top: 200px;
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #footer {
+        padding-top: 50px;
+        display: block;
+        justify-content: center;
+    }
+}
+
+#hero {
+    background-image: url(pxfuel.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -10px;
+}
+
+#heading {
+    background: #4389a5;
+    width: fit-content;
+    color: #f8f7f7;
+    text-shadow: 0 0 1px #1D1F1F;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+#subheading {
+    margin-top: -4px;
+    background: #273D46;
+    width: 400px;
+    color: #f8f7f7;
+    padding: 5px 10px;
+    text-shadow: 0 0 1px #1D1F1F;
+    border-radius: 2px;
+}
+
+#subhero {
+    margin-top: -5px;
+    text-align: center;
+    color: #1D1F1F;
+    background: #fff6f7;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    color: #29353a;
+}
+
+.activity {
+    color: #1D1F1F;
+    font-weight: 800;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#subhero1 {
+    background-color: #fffafa;
+    padding-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card {
+    border-bottom: 10px solid #88c0c0;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #fa9898;
+}
+
+#subcard {
+    padding-left: 20px;
+    text-align: center;
+}
+
+#img2 {
+    width: 200px;
+}
+
+#testimonial {
+    color: #273D46;
+    font-weight: 800;
+}
+
+#italic {
+    font-style: italic;
+    color: #29353a;
+}
+
+#name {
+    color: #273D46;
+}
+
+#footer {
+    width: fit-content;
+    margin: 0 auto;
+}
